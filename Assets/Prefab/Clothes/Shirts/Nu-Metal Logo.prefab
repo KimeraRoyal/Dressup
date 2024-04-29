@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1107020128872737694}
   - component: {fileID: 6737726345427994238}
+  - component: {fileID: -6025769545304244993}
   m_Layer: 0
   m_Name: Nu-Metal Logo
   m_TagString: Untagged
@@ -54,6 +55,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.7, y: 2.35, z: 1}
   m_Center: {x: -0.01, y: 1.25, z: 0}
+--- !u!114 &-6025769545304244993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4305283494149366870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6197cc4df7dd2504aaa7be5d2c3c304f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_attachmentPointName: Shirt
 --- !u!1001 &8669496349547523023
 PrefabInstance:
   m_ObjectHideFlags: 0

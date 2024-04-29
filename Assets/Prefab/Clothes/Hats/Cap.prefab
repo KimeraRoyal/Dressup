@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7696710492421146323}
   - component: {fileID: 4464434227328341862}
+  - component: {fileID: -4092511394031979592}
   m_Layer: 0
   m_Name: Cap
   m_TagString: Untagged
@@ -54,6 +55,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.17, y: 0.6, z: 1}
   m_Center: {x: -0.06, y: -0.1, z: 0}
+--- !u!114 &-4092511394031979592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8706772213492696597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6197cc4df7dd2504aaa7be5d2c3c304f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_attachmentPointName: Hat
 --- !u!1001 &2305833789369969947
 PrefabInstance:
   m_ObjectHideFlags: 0

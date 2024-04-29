@@ -1,12 +1,13 @@
+using System;
 using UnityEngine;
 
 namespace IP3
 {
     public class ClothingSpawner : MonoBehaviour
     {
-        [SerializeField] private GameObject[] m_clothes;
+        [SerializeField] private Clothing[] m_clothes;
         
-        [SerializeField] private GameObject m_clothingBasePrefab;
+        [SerializeField] private ClothingAttacher m_clothingBasePrefab;
 
         private void Start()
         {
@@ -21,7 +22,8 @@ namespace IP3
             var clothingBase = Instantiate(m_clothingBasePrefab, transform);
             var clothing = Instantiate(m_clothes[_index], clothingBase.transform);
 
-            clothing.layer = clothingBase.layer;
+            clothing.gameObject.layer = clothingBase.gameObject.layer;
+            clothingBase.Clothing = clothing;
         }
     }
 }

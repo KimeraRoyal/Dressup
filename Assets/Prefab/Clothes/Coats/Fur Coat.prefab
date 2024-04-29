@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6992597054275494858}
   - component: {fileID: 5887321097011263098}
+  - component: {fileID: -16124439343057178}
   m_Layer: 0
   m_Name: Fur Coat
   m_TagString: Untagged
@@ -54,6 +55,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.2, y: 2.74, z: 1}
   m_Center: {x: 0, y: 1.46, z: 0}
+--- !u!114 &-16124439343057178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95031908015272730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6197cc4df7dd2504aaa7be5d2c3c304f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_attachmentPointName: Coat
 --- !u!1001 &4698111980644694557
 PrefabInstance:
   m_ObjectHideFlags: 0

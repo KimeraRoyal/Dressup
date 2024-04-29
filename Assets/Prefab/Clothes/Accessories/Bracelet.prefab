@@ -94,6 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 875551316542208964}
   - component: {fileID: 3291200810477759503}
+  - component: {fileID: 3980944994412514263}
   m_Layer: 0
   m_Name: Bracelet
   m_TagString: Untagged
@@ -138,3 +139,16 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.3, y: 0.16, z: 1}
   m_Center: {x: -0.006, y: 0.075, z: 0}
+--- !u!114 &3980944994412514263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7981536855804247123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6197cc4df7dd2504aaa7be5d2c3c304f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_attachmentPointName: Left Wrist Accessory

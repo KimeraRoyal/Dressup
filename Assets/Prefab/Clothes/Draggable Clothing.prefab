@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8530047201123816909}
   - component: {fileID: 2357339628501948248}
-  - component: {fileID: 7641164829614335167}
   - component: {fileID: 7513009066792967058}
+  - component: {fileID: 5113971591979615211}
   m_Layer: 8
   m_Name: Draggable Clothing
   m_TagString: Untagged
@@ -46,21 +46,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e2e0f55c82674240a1eaa526f11db90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &7641164829614335167
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5183460529400953045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1c927f387a0484183f544dd501e8d47, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_useLocalPosition: 0
-  m_factor: {x: 1, y: 1, z: 1}
-  m_offset: {x: 0, y: 0, z: 0}
 --- !u!114 &7513009066792967058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73,3 +58,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea488acc301aad343966e0d58b99d70e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5113971591979615211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5183460529400953045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1453e3abe8ad59e4d9e8a9407e94985e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_useLocalPosition: 0
+  m_factor: {x: 1, y: 1, z: 1}
+  m_offset: {x: 0, y: 0, z: 0}
+  m_attachDistance: 0.2

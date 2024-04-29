@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2570275898933045361}
   - component: {fileID: 5090502479098984737}
+  - component: {fileID: -868107271331867714}
   m_Layer: 0
   m_Name: Flap Cap
   m_TagString: Untagged
@@ -54,6 +55,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.13, y: 1.07, z: 1}
   m_Center: {x: -0.035, y: -0.315, z: 0}
+--- !u!114 &-868107271331867714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343686112460097477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6197cc4df7dd2504aaa7be5d2c3c304f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_attachmentPointName: Hat
 --- !u!1001 &8284614399328753746
 PrefabInstance:
   m_ObjectHideFlags: 0

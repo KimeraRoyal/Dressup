@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7272092214728640295}
   - component: {fileID: 8735948358042687335}
+  - component: {fileID: 2189004255449173723}
   m_Layer: 0
   m_Name: Trainer (Right)
   m_TagString: Untagged
@@ -54,6 +55,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.07, y: 0.96, z: 1}
   m_Center: {x: -0.03, y: -0.02, z: 0}
+--- !u!114 &2189004255449173723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5098541393437719761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6197cc4df7dd2504aaa7be5d2c3c304f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_attachmentPointName: Right Shoe
 --- !u!1 &6557803890771631137
 GameObject:
   m_ObjectHideFlags: 0

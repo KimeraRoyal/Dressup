@@ -94,6 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6099660980594417153}
   - component: {fileID: 4700574745489781758}
+  - component: {fileID: -5369291685154811727}
   m_Layer: 0
   m_Name: Boot (Left)
   m_TagString: Untagged
@@ -138,3 +139,16 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.05, y: 1.11, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-5369291685154811727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3604889097633924878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6197cc4df7dd2504aaa7be5d2c3c304f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_attachmentPointName: Left Shoe
