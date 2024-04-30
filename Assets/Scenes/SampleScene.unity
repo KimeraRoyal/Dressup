@@ -720,7 +720,6 @@ GameObject:
   m_Component:
   - component: {fileID: 846563806}
   - component: {fileID: 846563807}
-  - component: {fileID: 846563808}
   m_Layer: 0
   m_Name: Clothing
   m_TagString: Untagged
@@ -750,7 +749,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 846563805}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 392dc1e3a25b3d94d926b3c4e5c313af, type: 3}
   m_Name: 
@@ -772,21 +771,6 @@ MonoBehaviour:
   - {fileID: 1205161454205990143, guid: 29bdc2ec229431546a70ff17d56f3b94, type: 3}
   - {fileID: -5286953937065423849, guid: a81a356b001778b4798dc3805f948e2a, type: 3}
   - {fileID: 2189004255449173723, guid: 0e6a98e8c640eed45a1d4b23754686ef, type: 3}
-  m_clothingBasePrefab: {fileID: 5113971591979615211, guid: f9013c3ce403952499ad4078eed95934, type: 3}
---- !u!114 &846563808
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 846563805}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 392dc1e3a25b3d94d926b3c4e5c313af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_clothes:
-  - {fileID: -6025769545304244993, guid: 4435b58617e964343a0dec8fb91f5029, type: 3}
   m_clothingBasePrefab: {fileID: 5113971591979615211, guid: f9013c3ce403952499ad4078eed95934, type: 3}
 --- !u!1 &1230793185
 GameObject:

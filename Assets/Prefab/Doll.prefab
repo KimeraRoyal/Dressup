@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8304736007897944071}
+  - component: {fileID: 9164263891031751571}
   m_Layer: 7
   m_Name: Right Wrist Accessory
   m_TagString: Untagged
@@ -31,6 +32,18 @@ Transform:
   m_Father: {fileID: 2780010309914107841}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9164263891031751571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455277010472185738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c10c65acfc162546a95555aeb1fab64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &610348112530022602
 GameObject:
   m_ObjectHideFlags: 0
@@ -79,6 +92,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4792727163705272457}
+  - component: {fileID: 5268059584431258158}
   m_Layer: 7
   m_Name: Left Wrist Accessory
   m_TagString: Untagged
@@ -101,6 +115,18 @@ Transform:
   m_Father: {fileID: 2780010309914107841}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5268059584431258158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530030096599600022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c10c65acfc162546a95555aeb1fab64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2588529646424449573
 GameObject:
   m_ObjectHideFlags: 0
@@ -133,7 +159,7 @@ Transform:
   - {fileID: 8727706126768818886}
   - {fileID: 2780010309914107841}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5628050787499764895
 MonoBehaviour:
@@ -147,8 +173,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7baf64c7610766343b7112c02856d354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_attachmentPointsParent: {fileID: 2780010309914107841}
-  m_attachmentPoints: []
 --- !u!1 &3209165795015356297
 GameObject:
   m_ObjectHideFlags: 0
@@ -158,6 +182,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1956387895919434026}
+  - component: {fileID: 4212881061715045908}
   m_Layer: 7
   m_Name: Right Shoe
   m_TagString: Untagged
@@ -180,6 +205,18 @@ Transform:
   m_Father: {fileID: 2780010309914107841}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4212881061715045908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3209165795015356297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c10c65acfc162546a95555aeb1fab64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4242609266543330365
 GameObject:
   m_ObjectHideFlags: 0
@@ -189,6 +226,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3337746103220047365}
+  - component: {fileID: 5801696557910346219}
   m_Layer: 7
   m_Name: Left Shoe
   m_TagString: Untagged
@@ -211,6 +249,18 @@ Transform:
   m_Father: {fileID: 2780010309914107841}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5801696557910346219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4242609266543330365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c10c65acfc162546a95555aeb1fab64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5412188443391659191
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,6 +270,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6168795500785559770}
+  - component: {fileID: 796495849213886212}
   m_Layer: 7
   m_Name: Legwear
   m_TagString: Untagged
@@ -242,6 +293,18 @@ Transform:
   m_Father: {fileID: 2780010309914107841}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &796495849213886212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5412188443391659191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c10c65acfc162546a95555aeb1fab64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8048940862144182629
 GameObject:
   m_ObjectHideFlags: 0
@@ -251,6 +314,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4083130370946842750}
+  - component: {fileID: 6721926718421742919}
   m_Layer: 7
   m_Name: Coat
   m_TagString: Untagged
@@ -273,6 +337,18 @@ Transform:
   m_Father: {fileID: 2780010309914107841}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6721926718421742919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8048940862144182629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c10c65acfc162546a95555aeb1fab64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8479044853506856367
 GameObject:
   m_ObjectHideFlags: 0
@@ -282,6 +358,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4844244881490819817}
+  - component: {fileID: 4839600085199215128}
   m_Layer: 7
   m_Name: Hat
   m_TagString: Untagged
@@ -304,6 +381,18 @@ Transform:
   m_Father: {fileID: 2780010309914107841}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4839600085199215128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8479044853506856367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c10c65acfc162546a95555aeb1fab64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8495913106993993039
 GameObject:
   m_ObjectHideFlags: 0
@@ -313,6 +402,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7394149713259949885}
+  - component: {fileID: 6248574920314462958}
   m_Layer: 7
   m_Name: Shirt
   m_TagString: Untagged
@@ -335,6 +425,18 @@ Transform:
   m_Father: {fileID: 2780010309914107841}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6248574920314462958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8495913106993993039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c10c65acfc162546a95555aeb1fab64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7940088516650447640
 PrefabInstance:
   m_ObjectHideFlags: 0
