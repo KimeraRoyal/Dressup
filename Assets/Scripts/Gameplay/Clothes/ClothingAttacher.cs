@@ -1,11 +1,13 @@
 using System.Linq;
+using IP3;
 using IP3.Movement;
 using UnityEngine;
 
 public class ClothingAttacher : Mover
 {
     private AttachmentPoint m_attachmentPoint;
-    
+
+    private Clickable m_clickable;
     private Clothing m_clothing;
 
     [SerializeField] private float m_attachDistance = 1.0f;
@@ -24,7 +26,14 @@ public class ClothingAttacher : Mover
         get => m_clothing;
         set => m_clothing = value;
     }
-    
+
+    protected override void Awake()
+    {
+        base.Awake();
+
+        m_clickable = GetComponent<Clickable>();
+    }
+
     protected override void Start()
     {
         base.Start();
@@ -35,6 +44,8 @@ public class ClothingAttacher : Mover
         OnTargetPositionChanged += UpdatePosition;
         UpdatePosition(TargetPosition);
         m_startingPosition = TargetPosition;
+        
+        m_clickable.OnReleased += OnReleased;
     }
 
     private void Update()
@@ -52,8 +63,12 @@ public class ClothingAttacher : Mover
         m_attachmentPosition = m_attachmentPoint.transform.position;
         m_attach = Vector3.Distance(m_attachmentPosition, m_truePosition) < m_attachDistance;
         
+        if(!m_attach) { m_attachmentPoint.DetachClothing(this, false); }
+    }
+
+    private void OnReleased()
+    {
         if(m_attach) { m_attachmentPoint.AttachClothing(this); }
-        else { m_attachmentPoint.DetachClothing(this, false); }
     }
 
     public void Reset()
