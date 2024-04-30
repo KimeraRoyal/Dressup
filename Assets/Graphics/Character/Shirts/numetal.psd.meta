@@ -110,14 +110,24 @@ ScriptedImporter:
       y: 608
       width: 103
       height: 119
-    spriteID: 760d9e68c62a2fe4cbb6cbdd46ea0e52
+    spriteID: 6448b18ff27177b4facb625bfbb2e861
     spriteBone: []
     spriteOutline: []
     vertices: []
-    spritePhysicsOutline: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: -21.5, y: 59.5}
+      - {x: -37.5, y: 55.5}
+      - {x: -49.5, y: -3.5}
+      - {x: -51.5, y: -12.5}
+      - {x: -51.5, y: -32.5}
+      - {x: 43.5, y: -59.5}
+      - {x: 51.5, y: -59.5}
+      - {x: 51.5, y: 30.5}
+      - {x: 42.5, y: 59.5}
     indices: 
     edges: []
-    tessellationDetail: 0
+    tessellationDetail: 0.1
     uvTransform: {x: 4, y: 608}
     spritePosition: {x: 54, y: 497}
   - name: body
@@ -131,14 +141,51 @@ ScriptedImporter:
       y: 4
       width: 424
       height: 596
-    spriteID: 0562fb68ff93d5342bd2550016ad4e98
+    spriteID: 5d6cf4cab07c92d4bbf05365e2b4e0f3
     spriteBone: []
     spriteOutline: []
     vertices: []
-    spritePhysicsOutline: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: 77, y: -197}
+      - {x: 62, y: -120}
+      - {x: 57, y: -75}
+      - {x: 68, y: -53}
+      - {x: 77, y: -34}
+      - {x: 85, y: -12}
+      - {x: 117, y: 22}
+      - {x: 140, y: 73}
+      - {x: 181, y: 74}
+      - {x: 212, y: 94}
+      - {x: 212, y: 116}
+      - {x: 201, y: 141}
+      - {x: 149, y: 186}
+      - {x: 102, y: 218}
+      - {x: 65, y: 209}
+      - {x: 25, y: 233}
+      - {x: 12, y: 261}
+      - {x: -5, y: 269}
+      - {x: -39, y: 283}
+      - {x: -93, y: 298}
+      - {x: -126, y: 298}
+      - {x: -137, y: 291}
+      - {x: -139, y: 228}
+      - {x: -135, y: 183}
+      - {x: -126, y: 105}
+      - {x: -127, y: -9}
+      - {x: -144, y: -67}
+      - {x: -176, y: -119}
+      - {x: -209, y: -213}
+      - {x: -212, y: -235}
+      - {x: -212, y: -264}
+      - {x: -181, y: -282}
+      - {x: -123, y: -298}
+      - {x: -2, y: -298}
+      - {x: 62, y: -282}
+      - {x: 83, y: -271}
     indices: 
     edges: []
-    tessellationDetail: 0
+    tessellationDetail: 0.1
     uvTransform: {x: 4, y: 4}
     spritePosition: {x: 10, y: 20}
   characterData:
@@ -227,7 +274,7 @@ ScriptedImporter:
     spriteName: foreground
     isGroup: 0
     parentIndex: -1
-    spriteID: 760d9e68c62a2fe4cbb6cbdd46ea0e52
+    spriteID: 6448b18ff27177b4facb625bfbb2e861
     layerID: 0
     mosaicPosition: {x: 4, y: 608}
     flatten: 0
@@ -237,7 +284,7 @@ ScriptedImporter:
     spriteName: body
     isGroup: 0
     parentIndex: -1
-    spriteID: 0562fb68ff93d5342bd2550016ad4e98
+    spriteID: 5d6cf4cab07c92d4bbf05365e2b4e0f3
     layerID: -911353822
     mosaicPosition: {x: 4, y: 4}
     flatten: 0

@@ -53,7 +53,10 @@ public class ClothingAttacher : Mover
         var attachmentAmount = m_attach ? 1.0f : 0.0f;
 
         m_attachment = Mathf.SmoothDamp(m_attachment, attachmentAmount, ref m_attachmentVelocity, m_movementSmoothTime);
-        CurrentPosition = Vector3.Lerp(m_truePosition, m_attachmentPosition, m_attachment);
+        
+        var position = Vector3.Lerp(m_truePosition, m_attachmentPosition, m_attachment);
+        position.z = m_clickable.Held ? -1 : 0;
+        CurrentPosition = position;
     }
 
     private void UpdatePosition(Vector3 _targetPosition)

@@ -712,6 +712,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_clothes:
+  - {fileID: 5497719246853438732, guid: e808e9378c0da5e45beed64692e75f0d, type: 3}
   - {fileID: 5741350566302291386, guid: 829efc45fdc55b141a140fe9a74f205a, type: 3}
   - {fileID: 3980944994412514263, guid: 3f5da6138a987dc4cafec5112f96430a, type: 3}
   - {fileID: -16124439343057178, guid: ef7361b81e3d88745af5b7e469adb532, type: 3}

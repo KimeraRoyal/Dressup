@@ -73,10 +73,11 @@ namespace IP3
             OnRelease?.Invoke(m_currentClicked);
         }
 
-        private bool ShootRay(out RaycastHit o_rayHit)
+        private bool ShootRay(out RaycastHit2D o_rayHit)
         {
             var ray = m_camera.ScreenPointToRay(Input.mousePosition);
-            return Physics.Raycast(ray, out o_rayHit, m_camera.farClipPlane, m_mask);
+            o_rayHit = Physics2D.Raycast(ray.origin, Vector2.up, 0.001f, m_mask);
+            return o_rayHit.collider;
         }
 
         public void Block()

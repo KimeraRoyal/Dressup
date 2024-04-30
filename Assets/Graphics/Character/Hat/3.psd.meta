@@ -114,10 +114,30 @@ ScriptedImporter:
     spriteBone: []
     spriteOutline: []
     vertices: []
-    spritePhysicsOutline: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: 103.5, y: 126}
+      - {x: 77.5, y: 137}
+      - {x: -64.5, y: 137}
+      - {x: -121.5, y: 78}
+      - {x: -103.5, y: 21}
+      - {x: -141.5, y: -4}
+      - {x: -144.5, y: -11}
+      - {x: -144.5, y: -23}
+      - {x: -108.5, y: -30}
+      - {x: -8.5, y: -25}
+      - {x: 38.5, y: -7}
+      - {x: 54.5, y: -103}
+      - {x: 56.5, y: -113}
+      - {x: 58.5, y: -125}
+      - {x: 65.5, y: -137}
+      - {x: 102.5, y: -137}
+      - {x: 144.5, y: -111}
+      - {x: 144.5, y: 51}
+      - {x: 124.5, y: 102}
     indices: 
     edges: []
-    tessellationDetail: 0
+    tessellationDetail: 0.1
     uvTransform: {x: 4, y: 4}
     spritePosition: {x: 12, y: 6}
   - name: background
@@ -135,10 +155,21 @@ ScriptedImporter:
     spriteBone: []
     spriteOutline: []
     vertices: []
-    spritePhysicsOutline: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: 59, y: 61}
+      - {x: 28, y: 61}
+      - {x: -66, y: 45}
+      - {x: -66, y: -43}
+      - {x: -65, y: -54}
+      - {x: -54, y: -61}
+      - {x: 11, y: -61}
+      - {x: 57, y: -44}
+      - {x: 66, y: -37}
+      - {x: 66, y: 15}
     indices: 
     edges: []
-    tessellationDetail: 0
+    tessellationDetail: 0.1
     uvTransform: {x: 4, y: 286}
     spritePosition: {x: 80, y: 19}
   characterData:
