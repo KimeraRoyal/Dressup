@@ -74,3 +74,4 @@ MonoBehaviour:
   m_factor: {x: 1, y: 1, z: 1}
   m_offset: {x: 0, y: 0, z: 0}
   m_attachDistance: 0.2
+  m_movementSmoothTime: 0.1
