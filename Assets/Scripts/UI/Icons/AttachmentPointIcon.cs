@@ -1,18 +1,38 @@
+using System;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class AttachmentPointIcon : MonoBehaviour
 {
-    [SerializeField] private Image m_icon;
+    private AttachmentPointIconImage[] m_images;
+
+    public Action<bool> OnAttachmentStateChanged;
+
+    private void Awake()
+    {
+        m_images = GetComponentsInChildren<AttachmentPointIconImage>();
+    }
 
     public void LinkToPoint(AttachmentPoint _attachmentPoint)
     {
         ChangeIconGraphic(_attachmentPoint.GetComponent<AttachmentPointIconGraphic>());
+        
+        _attachmentPoint.OnClothingAttached += OnClothingAttached;
+        _attachmentPoint.OnClothingDetached += OnClothingDetached;
     }
+
+    private void OnClothingAttached(ClothingAttacher _clothing)
+        => OnAttachmentStateChanged?.Invoke(_clothing);
+
+    private void OnClothingDetached(ClothingAttacher _clothing)
+        => OnAttachmentStateChanged?.Invoke(false);
 
     private void ChangeIconGraphic(AttachmentPointIconGraphic _graphic)
     {
         if(!_graphic) { return; }
-        m_icon.sprite = _graphic.Sprite;
+
+        foreach (var image in m_images)
+        {
+            image.Sprite = _graphic.Sprite;
+        }
     }
 }

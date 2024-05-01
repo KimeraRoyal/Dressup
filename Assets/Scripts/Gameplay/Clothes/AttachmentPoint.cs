@@ -1,8 +1,12 @@
+using System;
 using UnityEngine;
 
 public class AttachmentPoint : MonoBehaviour
 {
     [SerializeField] private ClothingAttacher m_attachedClothing;
+
+    public Action<ClothingAttacher> OnClothingAttached;
+    public Action<ClothingAttacher> OnClothingDetached;
 
     public void AttachClothing(ClothingAttacher _clothing)
     {
@@ -10,6 +14,8 @@ public class AttachmentPoint : MonoBehaviour
 
         DetachClothing(m_attachedClothing, true);
         m_attachedClothing = _clothing;
+        
+        OnClothingAttached?.Invoke(_clothing);
     }
 
     public void DetachClothing(ClothingAttacher _clothing, bool _reset)
@@ -18,5 +24,6 @@ public class AttachmentPoint : MonoBehaviour
 
         m_attachedClothing = null;
         if(_reset) { _clothing.Reset(); }
+        else { OnClothingDetached?.Invoke(_clothing); }
     }
 }

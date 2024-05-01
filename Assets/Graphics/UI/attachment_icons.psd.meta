@@ -119,7 +119,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 70, y: 64}
-    spritePosition: {x: 11, y: 3}
+    spritePosition: {x: 15, y: 7}
   - name: left_accessory
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -224,7 +224,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 64}
-    spritePosition: {x: 3, y: 6}
+    spritePosition: {x: 4, y: 8}
   - name: shirt
     originalName: 
     pivot: {x: 0.5, y: 0.5}

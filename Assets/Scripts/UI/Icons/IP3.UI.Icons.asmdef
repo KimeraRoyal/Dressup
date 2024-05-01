@@ -2,7 +2,8 @@
     "name": "IP3.UI.Icons",
     "rootNamespace": "",
     "references": [
-        "GUID:15aa5415be3257148b30631d46f086a0"
+        "GUID:15aa5415be3257148b30631d46f086a0",
+        "GUID:ff853533eb87b6249a9c964729953193"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

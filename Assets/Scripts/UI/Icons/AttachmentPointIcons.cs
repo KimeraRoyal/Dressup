@@ -4,18 +4,23 @@ public class AttachmentPointIcons : MonoBehaviour
 {
     [SerializeField] private AttachmentPointIcon m_iconPrefab;
 
+    private AttachmentPointIcon[] m_icons;
+
     private void Start()
     {
         var doll = FindObjectOfType<Doll>();
-        foreach (var attachmentPoint in doll.AttachmentPoints)
+
+        m_icons = new AttachmentPointIcon[doll.AttachmentPoints.Length];
+        for(var i = 0; i < m_icons.Length; i++)
         {
-            SpawnIcon(attachmentPoint);
+            m_icons[i] = SpawnIcon(doll.AttachmentPoints[i]);
         }
     }
 
-    private void SpawnIcon(AttachmentPoint _attachmentPoint)
+    private AttachmentPointIcon SpawnIcon(AttachmentPoint _attachmentPoint)
     {
         var icon = Instantiate(m_iconPrefab, transform);
         icon.LinkToPoint(_attachmentPoint);
+        return icon;
     }
 }
