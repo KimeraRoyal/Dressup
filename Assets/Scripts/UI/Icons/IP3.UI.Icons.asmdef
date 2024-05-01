@@ -1,0 +1,16 @@
+{
+    "name": "IP3.UI.Icons",
+    "rootNamespace": "",
+    "references": [
+        "GUID:15aa5415be3257148b30631d46f086a0"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
