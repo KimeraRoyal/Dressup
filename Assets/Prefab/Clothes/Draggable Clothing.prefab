@@ -90,3 +90,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_min: {x: -2, y: -5, z: 0}
   m_max: {x: 11, y: 5, z: 0}
+  m_useColliderBounds: 1
