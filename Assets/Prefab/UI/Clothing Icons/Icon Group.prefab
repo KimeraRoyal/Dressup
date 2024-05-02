@@ -76,4 +76,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3164de3dbf41bf4694f4d7194d4c291, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_iconPrefab: {fileID: 0}
+  m_iconPrefab: {fileID: 2217430528472233332, guid: af2e6226728d8bb48925b08876d32b69, type: 3}
