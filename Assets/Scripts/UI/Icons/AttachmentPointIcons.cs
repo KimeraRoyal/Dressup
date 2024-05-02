@@ -1,26 +1,30 @@
+using IP3.Gameplay.Clothes;
 using UnityEngine;
 
-public class AttachmentPointIcons : MonoBehaviour
+namespace UI.Icons
 {
-    [SerializeField] private AttachmentPointIcon m_iconPrefab;
-
-    private AttachmentPointIcon[] m_icons;
-
-    private void Start()
+    public class AttachmentPointIcons : MonoBehaviour
     {
-        var doll = FindObjectOfType<Doll>();
+        [SerializeField] private AttachmentPointIcon m_iconPrefab;
 
-        m_icons = new AttachmentPointIcon[doll.AttachmentPoints.Length];
-        for(var i = 0; i < m_icons.Length; i++)
+        private AttachmentPointIcon[] m_icons;
+
+        private void Start()
         {
-            m_icons[i] = SpawnIcon(doll.AttachmentPoints[i]);
-        }
-    }
+            var doll = FindObjectOfType<Doll>();
 
-    private AttachmentPointIcon SpawnIcon(AttachmentPoint _attachmentPoint)
-    {
-        var icon = Instantiate(m_iconPrefab, transform);
-        icon.LinkToPoint(_attachmentPoint);
-        return icon;
+            m_icons = new AttachmentPointIcon[doll.AttachmentPoints.Length];
+            for(var i = 0; i < m_icons.Length; i++)
+            {
+                m_icons[i] = SpawnIcon(doll.AttachmentPoints[i]);
+            }
+        }
+
+        private AttachmentPointIcon SpawnIcon(AttachmentPoint _attachmentPoint)
+        {
+            var icon = Instantiate(m_iconPrefab, transform);
+            icon.LinkToPoint(_attachmentPoint);
+            return icon;
+        }
     }
 }

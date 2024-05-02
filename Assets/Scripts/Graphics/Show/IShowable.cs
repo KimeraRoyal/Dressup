@@ -1,8 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-namespace IP3
+namespace IP3.Graphics.Show
 {
     public interface IShowable
     {

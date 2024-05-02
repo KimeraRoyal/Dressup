@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace IP3
+namespace IP2.Movement.AxisCopy
 {
     public class AxisCopy : MonoBehaviour
     {

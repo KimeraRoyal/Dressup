@@ -1,6 +1,7 @@
+using IP3.Graphics.Show;
 using UnityEngine;
 
-namespace IP3
+namespace IP3.Interaction.Click
 {
     [RequireComponent(typeof(IShowable))]
     public class ShownOnClick : MonoBehaviour

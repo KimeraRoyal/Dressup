@@ -1,8 +1,6 @@
-using System.Linq;
-using IP3.Movement;
 using UnityEngine;
 
-namespace IP3
+namespace IP3.Movement
 {
     [RequireComponent(typeof(Mover))]
     public class MoverClamper : MonoBehaviour

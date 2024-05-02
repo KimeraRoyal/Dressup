@@ -1,7 +1,8 @@
+using IP3.Movement;
 using UnityEngine;
 using Vector3 = UnityEngine.Vector3;
 
-namespace IP3.Movement
+namespace IP2.Movement.Focus
 {
     [RequireComponent(typeof(IMover))]
     public class TemporaryFocuser : MonoBehaviour, IFocuser

@@ -1,7 +1,8 @@
-using IP3.Movement;
+using IP3.Interaction.Click;
+using IP3.Interaction.Mouse;
 using UnityEngine;
 
-namespace IP3
+namespace IP3.Movement.Drag
 {
     [RequireComponent(typeof(Clickable), typeof(IMover))]
     public class Draggable : MonoBehaviour

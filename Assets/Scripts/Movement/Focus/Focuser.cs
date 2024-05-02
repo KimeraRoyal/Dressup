@@ -1,6 +1,7 @@
-﻿using UnityEngine;
+﻿using IP3.Movement;
+using UnityEngine;
 
-namespace IP3.Movement.Focus
+namespace IP2.Movement.Focus
 {
     public class Focuser : MonoBehaviour, IFocuser
     {

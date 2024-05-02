@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace IP3
+namespace IP3.Graphics.Show
 {
     public class Showable : MonoBehaviour, IShowable
     {

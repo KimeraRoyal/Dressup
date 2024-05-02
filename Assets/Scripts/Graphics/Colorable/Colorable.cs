@@ -1,8 +1,7 @@
 using System;
-using IP3.Graphics.Colorable;
 using UnityEngine;
 
-namespace IP3
+namespace IP3.Graphics.Colorable
 {
     public class Colorable : MonoBehaviour, IColorable
     {

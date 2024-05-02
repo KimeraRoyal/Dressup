@@ -1,6 +1,7 @@
+using IP3.Interaction.Click;
 using UnityEngine;
 
-namespace IP3
+namespace IP2.Movement.Focus
 {
     public class FocusOnClick : MonoBehaviour
     {

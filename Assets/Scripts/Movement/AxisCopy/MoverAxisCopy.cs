@@ -1,7 +1,7 @@
 using IP3.Movement;
 using UnityEngine;
 
-namespace IP3
+namespace IP2.Movement.AxisCopy
 {
     [RequireComponent(typeof(Mover))]
     public class MoverAxisCopy : MonoBehaviour

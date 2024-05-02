@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace IP3
+namespace IP3.Graphics.RenderTexture
 {
     [ExecuteInEditMode]
     public class RenderTextureScaler : MonoBehaviour
@@ -8,7 +8,7 @@ namespace IP3
         private Vector2Int m_screenSize;
         private int m_currentHeight;
 
-        [SerializeField] private RenderTexture m_renderTexture;
+        [SerializeField] private UnityEngine.RenderTexture m_renderTexture;
         [SerializeField] private int m_targetHeight = 100;
 
         private void Start()

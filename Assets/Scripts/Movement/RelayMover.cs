@@ -1,7 +1,6 @@
-using IP3.Movement;
 using UnityEngine;
 
-namespace IP3
+namespace IP3.Movement
 {
     public class RelayMover : MonoBehaviour, IMover
     {

@@ -1,38 +1,42 @@
 using System;
+using IP3.Gameplay.Clothes;
 using UnityEngine;
 
-public class AttachmentPointIcon : MonoBehaviour
+namespace UI.Icons
 {
-    private AttachmentPointIconImage[] m_images;
-
-    public Action<bool> OnAttachmentStateChanged;
-
-    private void Awake()
+    public class AttachmentPointIcon : MonoBehaviour
     {
-        m_images = GetComponentsInChildren<AttachmentPointIconImage>();
-    }
+        private AttachmentPointIconImage[] m_images;
 
-    public void LinkToPoint(AttachmentPoint _attachmentPoint)
-    {
-        ChangeIconGraphic(_attachmentPoint.GetComponent<AttachmentPointIconGraphic>());
-        
-        _attachmentPoint.OnClothingAttached += OnClothingAttached;
-        _attachmentPoint.OnClothingDetached += OnClothingDetached;
-    }
+        public Action<bool> OnAttachmentStateChanged;
 
-    private void OnClothingAttached(ClothingAttacher _clothing)
-        => OnAttachmentStateChanged?.Invoke(_clothing);
-
-    private void OnClothingDetached(ClothingAttacher _clothing)
-        => OnAttachmentStateChanged?.Invoke(false);
-
-    private void ChangeIconGraphic(AttachmentPointIconGraphic _graphic)
-    {
-        if(!_graphic) { return; }
-
-        foreach (var image in m_images)
+        private void Awake()
         {
-            image.Sprite = _graphic.Sprite;
+            m_images = GetComponentsInChildren<AttachmentPointIconImage>();
+        }
+
+        public void LinkToPoint(AttachmentPoint _attachmentPoint)
+        {
+            ChangeIconGraphic(_attachmentPoint.GetComponent<AttachmentPointIconGraphic>());
+        
+            _attachmentPoint.OnClothingAttached += OnClothingAttached;
+            _attachmentPoint.OnClothingDetached += OnClothingDetached;
+        }
+
+        private void OnClothingAttached(ClothingAttacher _clothing)
+            => OnAttachmentStateChanged?.Invoke(_clothing);
+
+        private void OnClothingDetached(ClothingAttacher _clothing)
+            => OnAttachmentStateChanged?.Invoke(false);
+
+        private void ChangeIconGraphic(AttachmentPointIconGraphic _graphic)
+        {
+            if(!_graphic) { return; }
+
+            foreach (var image in m_images)
+            {
+                image.Sprite = _graphic.Sprite;
+            }
         }
     }
 }

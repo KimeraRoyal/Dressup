@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace IP3
+namespace IP3.Interaction.Click
 {
     public class BlockClickerOnHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {

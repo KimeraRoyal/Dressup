@@ -2,7 +2,7 @@ using DG.Tweening;
 using IP3.Graphics.Colorable;
 using UnityEngine;
 
-namespace IP3
+namespace IP3.Graphics.Show
 {
     public class FadeOnShow : Showable, IColorable
     {

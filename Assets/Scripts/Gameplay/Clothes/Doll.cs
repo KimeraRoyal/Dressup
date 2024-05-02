@@ -1,14 +1,16 @@
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Doll : MonoBehaviour
+namespace IP3.Gameplay.Clothes
 {
-    private AttachmentPoint[] m_attachmentPoints;
-
-    public AttachmentPoint[] AttachmentPoints => m_attachmentPoints;
-
-    private void Awake()
+    public class Doll : MonoBehaviour
     {
-        m_attachmentPoints = GetComponentsInChildren<AttachmentPoint>();
+        private AttachmentPoint[] m_attachmentPoints;
+
+        public AttachmentPoint[] AttachmentPoints => m_attachmentPoints;
+
+        private void Awake()
+        {
+            m_attachmentPoints = GetComponentsInChildren<AttachmentPoint>();
+        }
     }
 }

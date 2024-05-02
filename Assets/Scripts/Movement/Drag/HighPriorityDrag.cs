@@ -1,7 +1,7 @@
-using IP3.Movement;
+using IP3.Interaction.Click;
 using UnityEngine;
 
-namespace IP3
+namespace IP3.Movement.Drag
 {
     [RequireComponent(typeof(Mover), typeof(Clickable))]
     public class HighPriorityDrag : MonoBehaviour

@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace IP3
+namespace IP3.Interaction.Mouse
 {
     public class MousePosition : MonoBehaviour
     {

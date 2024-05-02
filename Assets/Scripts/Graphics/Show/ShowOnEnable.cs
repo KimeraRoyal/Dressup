@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace IP3
+namespace IP3.Graphics.Show
 {
     [RequireComponent(typeof(IShowable))]
     public class ShowOnEnable : MonoBehaviour
