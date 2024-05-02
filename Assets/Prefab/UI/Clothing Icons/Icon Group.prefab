@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1015043522659838730}
   - component: {fileID: 4297139941004638561}
-  - component: {fileID: 6581607910856448199}
+  - component: {fileID: 4148215702596478105}
   m_Layer: 5
   m_Name: Icon Group
   m_TagString: Untagged
@@ -31,7 +31,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -55,8 +55,8 @@ MonoBehaviour:
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 2
-  m_Spacing: 20
+  m_ChildAlignment: 0
+  m_Spacing: 5
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -64,7 +64,7 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
---- !u!114 &6581607910856448199
+--- !u!114 &4148215702596478105
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -76,4 +76,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3164de3dbf41bf4694f4d7194d4c291, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_iconPrefab: {fileID: 4911702388584703852, guid: af2e6226728d8bb48925b08876d32b69, type: 3}
+  m_iconPrefab: {fileID: 0}

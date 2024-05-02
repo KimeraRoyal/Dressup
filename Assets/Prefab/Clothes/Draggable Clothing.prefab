@@ -76,6 +76,7 @@ MonoBehaviour:
   m_offset: {x: 0, y: 0, z: 0}
   m_attachDistance: 0.2
   m_movementSmoothTime: 0.1
+  m_resetDuration: 0.3
 --- !u!114 &3652296179155124811
 MonoBehaviour:
   m_ObjectHideFlags: 0
