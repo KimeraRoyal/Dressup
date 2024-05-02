@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4856674314900135725}
   - component: {fileID: 5123335321135485819}
+  - component: {fileID: 8595731609025137332}
   m_Layer: 5
   m_Name: Page Group
   m_TagString: Untagged
@@ -61,3 +62,16 @@ MonoBehaviour:
   m_Spacing: {x: 10, y: 50}
   m_Constraint: 0
   m_ConstraintCount: 2
+--- !u!114 &8595731609025137332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7383776204178225679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35208390dc5e14f43b02b1aae177db98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_buttonPrefab: {fileID: 5911979607919822446, guid: 020603054954e1d48934f9cb91f25731, type: 3}

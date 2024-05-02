@@ -74,6 +74,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7346750546590586195, guid: 4fb5b19497fe7484088d695b4390cf9c, type: 3}
+      propertyPath: m_text
+      value: Legwear
+      objectReference: {fileID: 0}
+    - target: {fileID: 2890013768364398583, guid: 4fb5b19497fe7484088d695b4390cf9c, type: 3}
+      propertyPath: m_sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 23f5cf031c95d0445817e9238bde78cd, type: 3}
     - target: {fileID: 3059042812047749033, guid: 4fb5b19497fe7484088d695b4390cf9c, type: 3}
       propertyPath: m_Name
       value: Legwear Variant
@@ -130,7 +138,7 @@ PrefabInstance:
       addedObject: {fileID: 2362031101373071985}
     - targetCorrespondingSourceObject: {fileID: 7102280012788184369, guid: 4fb5b19497fe7484088d695b4390cf9c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 899817119994939403}
+      addedObject: {fileID: 2312789574095108809}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fb5b19497fe7484088d695b4390cf9c, type: 3}
 --- !u!4 &5349778539034061507 stripped
@@ -199,7 +207,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb4a94c82aed77348aa96d1e6361cf49, type: 3}
---- !u!4 &899817119994939403 stripped
+--- !u!4 &2312789574095108809 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 850047028221108088, guid: bb4a94c82aed77348aa96d1e6361cf49, type: 3}
   m_PrefabInstance: {fileID: 3157960782429595057}

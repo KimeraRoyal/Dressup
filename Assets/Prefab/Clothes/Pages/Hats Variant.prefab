@@ -206,6 +206,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7346750546590586195, guid: 4fb5b19497fe7484088d695b4390cf9c, type: 3}
+      propertyPath: m_text
+      value: Hats
+      objectReference: {fileID: 0}
+    - target: {fileID: 2890013768364398583, guid: 4fb5b19497fe7484088d695b4390cf9c, type: 3}
+      propertyPath: m_sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b29106673e601aa4eb82dd70ffc3947c, type: 3}
     - target: {fileID: 3059042812047749033, guid: 4fb5b19497fe7484088d695b4390cf9c, type: 3}
       propertyPath: m_Name
       value: Hats Variant

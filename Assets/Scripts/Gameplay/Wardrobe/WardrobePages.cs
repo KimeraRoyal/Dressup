@@ -12,6 +12,8 @@ namespace IP3.Gameplay.Wardrobe
         private WardrobePage[] m_pages;
         private int m_activePageIndex;
 
+        public WardrobePage[] Pages => m_pages;
+
         public int ActivePageIndex
         {
             get => m_activePageIndex;

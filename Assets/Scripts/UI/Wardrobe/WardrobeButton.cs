@@ -1,3 +1,4 @@
+using System;
 using IP3.Gameplay.Wardrobe;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,7 +9,21 @@ public class WardrobeButton : MonoBehaviour
 
     private Button m_button;
     
-    [SerializeField] private int m_trackedIndex;
+    private int m_trackedIndex = -1;
+
+    public Action<WardrobePage> OnTrackedPageChanged;
+
+    public int TrackedIndex
+    {
+        get => m_trackedIndex;
+        set
+        {
+            if(m_trackedIndex == value) { return; }
+
+            m_trackedIndex = value;
+            OnTrackedPageChanged?.Invoke(m_pages.Pages[m_trackedIndex]);
+        }
+    }
 
     private void Awake()
     {

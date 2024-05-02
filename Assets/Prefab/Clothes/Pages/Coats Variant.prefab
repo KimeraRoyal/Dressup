@@ -127,7 +127,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1d6acf479ce0224dbc20b63a618e19c, type: 3}
---- !u!4 &1498035820977055339 stripped
+--- !u!4 &3027374297275578874 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 583198800705808545, guid: a1d6acf479ce0224dbc20b63a618e19c, type: 3}
   m_PrefabInstance: {fileID: 2455751361162301787}
@@ -140,6 +140,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7346750546590586195, guid: 4fb5b19497fe7484088d695b4390cf9c, type: 3}
+      propertyPath: m_text
+      value: Coats
+      objectReference: {fileID: 0}
+    - target: {fileID: 2890013768364398583, guid: 4fb5b19497fe7484088d695b4390cf9c, type: 3}
+      propertyPath: m_sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 182598098f4a072499d1ec20739727bf, type: 3}
     - target: {fileID: 3059042812047749033, guid: 4fb5b19497fe7484088d695b4390cf9c, type: 3}
       propertyPath: m_Name
       value: Coats Variant
@@ -196,7 +204,7 @@ PrefabInstance:
       addedObject: {fileID: 847348408664896610}
     - targetCorrespondingSourceObject: {fileID: 7102280012788184369, guid: 4fb5b19497fe7484088d695b4390cf9c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1498035820977055339}
+      addedObject: {fileID: 3027374297275578874}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fb5b19497fe7484088d695b4390cf9c, type: 3}
 --- !u!4 &6204636084561289784 stripped

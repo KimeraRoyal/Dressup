@@ -61,7 +61,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7d09b58f1f1ef04ab13aa3e1a889b46, type: 3}
---- !u!4 &944158769748855796 stripped
+--- !u!4 &2655150079880267993 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2813131892374628433, guid: a7d09b58f1f1ef04ab13aa3e1a889b46, type: 3}
   m_PrefabInstance: {fileID: 275489661547372680}
@@ -74,6 +74,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7346750546590586195, guid: 4fb5b19497fe7484088d695b4390cf9c, type: 3}
+      propertyPath: m_text
+      value: Shirts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2890013768364398583, guid: 4fb5b19497fe7484088d695b4390cf9c, type: 3}
+      propertyPath: m_sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d6bfa747d9be1654a97a2725df43ccb2, type: 3}
     - target: {fileID: 3059042812047749033, guid: 4fb5b19497fe7484088d695b4390cf9c, type: 3}
       propertyPath: m_Name
       value: Shirts Variant
@@ -130,7 +138,7 @@ PrefabInstance:
       addedObject: {fileID: 9188763735801229807}
     - targetCorrespondingSourceObject: {fileID: 7102280012788184369, guid: 4fb5b19497fe7484088d695b4390cf9c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 944158769748855796}
+      addedObject: {fileID: 2655150079880267993}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fb5b19497fe7484088d695b4390cf9c, type: 3}
 --- !u!4 &7751947454754555018 stripped
