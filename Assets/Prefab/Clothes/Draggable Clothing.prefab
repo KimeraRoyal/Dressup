@@ -88,6 +88,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a37eaaa9a15680749a8b451929fb660a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_min: {x: -2, y: -5, z: 0}
+  m_min: {x: -2, y: -5, z: -1}
   m_max: {x: 11, y: 5, z: 0}
   m_useColliderBounds: 1

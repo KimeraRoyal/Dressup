@@ -21,17 +21,12 @@ public class ClothingAttacher : Mover
     private float m_attachment;
     private float m_attachmentVelocity;
 
-    public Clothing Clothing
-    {
-        get => m_clothing;
-        set => m_clothing = value;
-    }
-
     protected override void Awake()
     {
         base.Awake();
 
         m_clickable = GetComponent<Clickable>();
+        m_clothing = GetComponent<Clothing>();
     }
 
     protected override void Start()
