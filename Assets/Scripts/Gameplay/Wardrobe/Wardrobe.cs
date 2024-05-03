@@ -34,13 +34,5 @@ namespace IP3.Gameplay.Wardrobe
         {
             Open = true;
         }
-
-        private void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.W))
-            {
-                Open = !Open;
-            }
-        }
     }
 }
