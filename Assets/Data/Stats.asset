@@ -17,155 +17,103 @@ MonoBehaviour:
     m_startingValue: 0
     m_min: 0
     m_max: 5
-    m_minFormatting: '{0}'
-    m_maxFormatting: '{0}'
   - m_name: Cuteness
     m_startingValue: 0
     m_min: 0
     m_max: 5
-    m_minFormatting: '{0}'
-    m_maxFormatting: '{0}'
   - m_name: Suaveness
     m_startingValue: 0
     m_min: 0
     m_max: 5
-    m_minFormatting: '{0}'
-    m_maxFormatting: '{0}'
   - m_name: Edginess
     m_startingValue: 0
     m_min: 0
     m_max: 5
-    m_minFormatting: '{0}'
-    m_maxFormatting: '{0}'
   - m_name: Professionality
     m_startingValue: 0
     m_min: 0
     m_max: 5
-    m_minFormatting: '{0}'
-    m_maxFormatting: '{0}'
   - m_name: Experimentation
     m_startingValue: 0
     m_min: 0
     m_max: 1
-    m_minFormatting: A
-    m_maxFormatting: ;
   - m_name: Exposed Feet
     m_startingValue: 2
     m_min: 0
     m_max: 2
-    m_minFormatting: '{0}'
-    m_maxFormatting: '{0}'
   - m_name: Protection from Sun
     m_startingValue: 0
     m_min: 0
     m_max: 100
-    m_minFormatting: '{0}%'
-    m_maxFormatting: '{0}%'
   - m_name: Leather
     m_startingValue: 0
     m_min: 0
     m_max: 100
-    m_minFormatting: '{0}%'
-    m_maxFormatting: '{0}%'
   - m_name: Warmness
     m_startingValue: 0
     m_min: 0
     m_max: 20
-    m_minFormatting: '{0}'
-    m_maxFormatting: '{0}'
   - m_name: Flirtiness
     m_startingValue: 0
     m_min: 0
     m_max: 5
-    m_minFormatting: '{0}'
-    m_maxFormatting: '{0}'
   - m_name: Teeth
     m_startingValue: 32
     m_min: 0
     m_max: 83
-    m_minFormatting: '{0}'
-    m_maxFormatting: '{0}'
   - m_name: Nimbleness
     m_startingValue: 5
     m_min: 0
     m_max: 5
-    m_minFormatting: '{0}'
-    m_maxFormatting: '{0}'
   - m_name: Accessorization
     m_startingValue: 0
     m_min: 0
     m_max: 10
-    m_minFormatting: '{0}'
-    m_maxFormatting: '{0}'
   - m_name: Whimsy
     m_startingValue: 0
     m_min: 0
     m_max: 100
-    m_minFormatting: '{0}...'
-    m_maxFormatting: '{0}!'
   - m_name: Gender Presentation
     m_startingValue: 1
-    m_min: 1
+    m_min: 0
     m_max: 13
-    m_minFormatting: '{0}'
-    m_maxFormatting: '{0}'
   - m_name: Grocery Store Admirers
     m_startingValue: 1
     m_min: 0
     m_max: 50
-    m_minFormatting: '{0}'
-    m_maxFormatting: '{0}'
   - m_name: Goblins Sighted
     m_startingValue: 0
     m_min: 0
     m_max: 100
-    m_minFormatting: '{0}'
-    m_maxFormatting: ???
   - m_name: Discomfort
     m_startingValue: 0
     m_min: 0
     m_max: 1
-    m_minFormatting: '{0}'
-    m_maxFormatting: '{0}'
   - m_name: Comprehension
     m_startingValue: 0
     m_min: 0
     m_max: 0
-    m_minFormatting: '{0}'
-    m_maxFormatting: '{0}'
   - m_name: Adherance
     m_startingValue: 0
     m_min: 0
     m_max: 10
-    m_minFormatting: '{0}'
-    m_maxFormatting: '{0}?'
   - m_name: Aptitude
     m_startingValue: 0
     m_min: 0
     m_max: 20
-    m_minFormatting: '{0}'
-    m_maxFormatting: '{0}'
   - m_name: Legality
     m_startingValue: 0
     m_min: 0
     m_max: 1
-    m_minFormatting: '{0}'
-    m_maxFormatting: '{0}'
   - m_name: Symmetry
     m_startingValue: 0
     m_min: 0
     m_max: 1
-    m_minFormatting: '{0}'
-    m_maxFormatting: '{0}'
   - m_name: Balance
     m_startingValue: 0.5
     m_min: 0
     m_max: 1
-    m_minFormatting: L
-    m_maxFormatting: R
   - m_name: Likelihood of Getting Tattoo
     m_startingValue: 0
     m_min: 0
     m_max: 100
-    m_minFormatting: '{0}%'
-    m_maxFormatting: '{0}%'

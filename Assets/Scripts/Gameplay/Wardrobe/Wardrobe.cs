@@ -30,6 +30,11 @@ namespace IP3.Gameplay.Wardrobe
             m_pages = FindObjectOfType<WardrobePages>();
         }
 
+        private void Start()
+        {
+            Open = true;
+        }
+
         private void Update()
         {
             if (Input.GetKeyDown(KeyCode.W))

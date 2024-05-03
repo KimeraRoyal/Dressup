@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7513009066792967058}
   - component: {fileID: 5113971591979615211}
   - component: {fileID: 3652296179155124811}
+  - component: {fileID: 4122568518599488807}
   m_Layer: 8
   m_Name: Draggable Clothing
   m_TagString: Untagged
@@ -92,3 +93,17 @@ MonoBehaviour:
   m_min: {x: -2, y: -5, z: -1}
   m_max: {x: 11, y: 5, z: 0}
   m_useColliderBounds: 1
+--- !u!114 &4122568518599488807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5183460529400953045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a5c16468896704d931cefeeec8bd97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_modifiers: []
+  m_defaultModifier: {fileID: 11400000, guid: f755daf931537a74d9bb6b07727ecec0, type: 2}

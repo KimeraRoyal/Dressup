@@ -1,14 +1,20 @@
+using System;
 using UnityEngine;
 
 namespace IP3
 {
     public class StatBars : MonoBehaviour
     {
-        [SerializeField] private StatsData m_stats;
+        private DollStats m_stats;
 
         [SerializeField] private StatBar m_statBarPrefab;
 
         private StatBar[] m_statBars;
+
+        private void Awake()
+        {
+            m_stats = FindObjectOfType<DollStats>();
+        }
 
         private void Start()
         {

@@ -5,9 +5,9 @@ namespace IP3
 {
     public class StatBar : MonoBehaviour
     {
-        private Stat m_stat;
+        private DollStat m_stat;
 
-        public Stat Stat
+        public DollStat Stat
         {
             get => m_stat;
             set
@@ -19,6 +19,6 @@ namespace IP3
             }
         }
 
-        public Action<Stat> OnStatChanged;
+        public Action<DollStat> OnStatChanged;
     }
 }

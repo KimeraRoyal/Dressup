@@ -13,6 +13,8 @@ namespace IP3.Gameplay.Clothes
         private Clickable m_clickable;
         private Clothing m_clothing;
 
+        private ClothingStatModifiers m_statModifiers;
+
         [SerializeField] private float m_attachDistance = 1.0f;
         [SerializeField] private float m_movementSmoothTime = 1.0f;
         [SerializeField] private float m_resetDuration = 1.0f;
@@ -31,12 +33,16 @@ namespace IP3.Gameplay.Clothes
 
         private Tween m_resetTween;
 
+        public ClothingStatModifiers StatModifiers => m_statModifiers;
+
         protected override void Awake()
         {
             base.Awake();
 
             m_clickable = GetComponent<Clickable>();
             m_clothing = GetComponent<Clothing>();
+
+            m_statModifiers = GetComponent<ClothingStatModifiers>();
 
             m_detachedParent = transform.parent;
             m_attachedParent = m_detachedParent ? m_detachedParent.parent : null;

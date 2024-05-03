@@ -15,8 +15,10 @@ namespace IP3.Gameplay.Clothes
             if(m_attachedClothing == _clothing) { return; }
 
             DetachClothing(m_attachedClothing, true);
+            
             m_attachedClothing = _clothing;
-        
+            m_attachedClothing.StatModifiers?.OnAdded();
+            
             OnClothingAttached?.Invoke(_clothing);
         }
 
@@ -24,7 +26,9 @@ namespace IP3.Gameplay.Clothes
         {
             if(!m_attachedClothing || m_attachedClothing != _clothing) { return; }
 
+            m_attachedClothing.StatModifiers?.OnRemoved();
             m_attachedClothing = null;
+            
             if(_reset) { _clothing.Reset(); }
             else { OnClothingDetached?.Invoke(_clothing); }
         }

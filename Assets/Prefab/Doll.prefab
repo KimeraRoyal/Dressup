@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c10c65acfc162546a95555aeb1fab64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_attachedClothing: {fileID: 0}
 --- !u!1 &610348112530022602
 GameObject:
   m_ObjectHideFlags: 0
@@ -127,6 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c10c65acfc162546a95555aeb1fab64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_attachedClothing: {fileID: 0}
 --- !u!1 &2588529646424449573
 GameObject:
   m_ObjectHideFlags: 0
@@ -137,6 +139,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6620300998579433677}
   - component: {fileID: 5628050787499764895}
+  - component: {fileID: 122698183334293642}
+  - component: {fileID: 2682884245521621869}
   m_Layer: 7
   m_Name: Doll
   m_TagString: Untagged
@@ -173,6 +177,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7baf64c7610766343b7112c02856d354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &122698183334293642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2588529646424449573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8cb90e3acdbba248b2162ea88493c41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_data: {fileID: 11400000, guid: dd752a1988d757f4e8350ec67d8ec4ed, type: 2}
+  m_stats: []
+--- !u!114 &2682884245521621869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2588529646424449573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d914e9a569160cf4ca19245de6088a8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_statName: Gender Presentation
 --- !u!1 &3209165795015356297
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,6 +248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c10c65acfc162546a95555aeb1fab64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_attachedClothing: {fileID: 0}
 --- !u!1 &4242609266543330365
 GameObject:
   m_ObjectHideFlags: 0
@@ -261,6 +293,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c10c65acfc162546a95555aeb1fab64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_attachedClothing: {fileID: 0}
 --- !u!1 &5412188443391659191
 GameObject:
   m_ObjectHideFlags: 0
@@ -305,6 +338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c10c65acfc162546a95555aeb1fab64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_attachedClothing: {fileID: 0}
 --- !u!1 &8048940862144182629
 GameObject:
   m_ObjectHideFlags: 0
@@ -349,6 +383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c10c65acfc162546a95555aeb1fab64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_attachedClothing: {fileID: 0}
 --- !u!1 &8479044853506856367
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,6 +428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c10c65acfc162546a95555aeb1fab64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_attachedClothing: {fileID: 0}
 --- !u!1 &8495913106993993039
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,6 +473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c10c65acfc162546a95555aeb1fab64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_attachedClothing: {fileID: 0}
 --- !u!1001 &7940088516650447640
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -459,7 +496,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8250169266279454816, guid: 89eac92fb8587904d9f5941f3022dd05, type: 3}
       propertyPath: m_SortingLayer
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8250169266279454816, guid: 89eac92fb8587904d9f5941f3022dd05, type: 3}
       propertyPath: m_SortingOrder
@@ -471,7 +508,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8179793749568616968, guid: 89eac92fb8587904d9f5941f3022dd05, type: 3}
       propertyPath: m_SortingLayer
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8179793749568616968, guid: 89eac92fb8587904d9f5941f3022dd05, type: 3}
       propertyPath: m_SortingOrder
@@ -527,7 +564,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3486460674597895394, guid: 89eac92fb8587904d9f5941f3022dd05, type: 3}
       propertyPath: m_SortingLayer
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -3486460674597895394, guid: 89eac92fb8587904d9f5941f3022dd05, type: 3}
       propertyPath: m_SortingOrder

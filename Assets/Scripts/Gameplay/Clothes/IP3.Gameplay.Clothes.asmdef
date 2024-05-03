@@ -3,7 +3,8 @@
     "rootNamespace": "IP3",
     "references": [
         "GUID:a1ca6bd2513175346a616455e14d5ccc",
-        "GUID:ff853533eb87b6249a9c964729953193"
+        "GUID:ff853533eb87b6249a9c964729953193",
+        "GUID:62c0d9a52ee6bfa408e8a94a42994f01"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
